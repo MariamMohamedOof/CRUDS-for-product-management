@@ -1,0 +1,31 @@
+*{margin: 0; padding: 0;}
+.cruds{width:80%;margin: auto;}
+header{ text-align: center; margin: 10px 0px;}
+.inputs{width: 100%;
+margin: 4px 0px;
+padding: 4px;
+background-color: rgb(190, 201, 197);
+outline: none;}
+header p{font-size:20px;}
+
+
+#total{padding: 5px;
+background-color:  rgb(90, 190, 190);}
+#total::before{content:"total :";}
+button{width: 100%;
+    border-radius: 15px;
+margin:auto;
+background-color: rgb(90, 190, 190);
+cursor: pointer;
+padding: 5px;
+text-align: center;}
+.btnsearch{display: flex;
+justify-content: space-between;
+padding: 10px;}
+.btnsearch button{width: 40%;}
+.searchblock{width:100%;
+margin:10px;
+padding-bottom: 10px;}
+table{width:100%;
+text-align: center;}
+#deleteall{margin: 20px;}
